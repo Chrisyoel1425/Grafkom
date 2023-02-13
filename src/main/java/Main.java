@@ -27,9 +27,11 @@ public class Main {
                         ),
                         new ArrayList<>(
                                 List.of(
-                                        new Vector3f(0.0f, 0.5f, 0.0f),
+                                        new Vector3f(0.5f, 0.5f, 0.0f),
+                                        new Vector3f(-0.5f, 0.5f, 0.0f),
                                         new Vector3f(-0.5f, -0.5f, 0.0f),
                                         new Vector3f(0.5f, -0.5f, 0.0f)
+
                                 )
                         )
                 )

@@ -43,7 +43,7 @@ public class Object2d extends ShaderProgram{
     public void draw(){
         drawSetup();
         //optional
-        glLineWidth(1); //Ketebalan Garis
+        glLineWidth(5); //Ketebalan Garis
         glPointSize(0); // Ngatur besar kecile vertex
         //wajib
         //GL_LINE
@@ -52,6 +52,6 @@ public class Object2d extends ShaderProgram{
         //GL_TRIANGLES
         //GL_TRIANGLE_FAN
         //GL_POINT
-        glDrawArrays(GL_LINE, 0, vertices.size());
+        glDrawArrays(GL_LINE_LOOP, 0, vertices.size());
     }
 }
